@@ -31,13 +31,20 @@
     
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    [[self navigationController] setNavigationBarHidden:NO animated:NO];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
 }
 
 #pragma mark IBAction method
-- (IBAction)LogOutAction:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+
+- (IBAction)nextModulAction:(id)sender {
+    [self performSegueWithIdentifier:@"toFoodReview" sender:self];
 }
 @end

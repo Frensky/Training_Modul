@@ -15,7 +15,8 @@
 
 
 @property NSString *nama;
-- (IBAction)LogOutAction:(id)sender;
+
+- (IBAction)nextModulAction:(id)sender;
 
 
 @end

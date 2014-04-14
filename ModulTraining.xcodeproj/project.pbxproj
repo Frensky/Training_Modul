@@ -28,6 +28,16 @@
 		EA3F4FCE18F7E1DC00877996 /* WGSMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F4FCD18F7E1DC00877996 /* WGSMainView.m */; };
 		EA3F4FD118F7E45400877996 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA3F4FD018F7E45400877996 /* images.jpeg */; };
 		EA3F4FD418F7EA3600877996 /* WGSSignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F4FD318F7EA3600877996 /* WGSSignUpController.m */; };
+		EAA6E7CA18FB8AE300262777 /* foodData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7C918FB8AE300262777 /* foodData.plist */; };
+		EAA6E7CE18FB931A00262777 /* WGSFoodListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA6E7CD18FB931A00262777 /* WGSFoodListController.m */; };
+		EAA6E7D718FB957600262777 /* Anggur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7CF18FB957600262777 /* Anggur.jpeg */; };
+		EAA6E7D818FB957600262777 /* IceCream.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7D018FB957600262777 /* IceCream.jpeg */; };
+		EAA6E7D918FB957600262777 /* Kambing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7D118FB957600262777 /* Kambing.jpeg */; };
+		EAA6E7DA18FB957600262777 /* Kentang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7D218FB957600262777 /* Kentang.jpeg */; };
+		EAA6E7DB18FB957600262777 /* Laksa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7D318FB957600262777 /* Laksa.jpeg */; };
+		EAA6E7DC18FB957600262777 /* Lotek.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7D418FB957600262777 /* Lotek.jpeg */; };
+		EAA6E7DD18FB957600262777 /* Puding.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7D518FB957600262777 /* Puding.jpeg */; };
+		EAA6E7DE18FB957600262777 /* Steak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAA6E7D618FB957600262777 /* Steak.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +79,17 @@
 		EA3F4FD018F7E45400877996 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		EA3F4FD218F7EA3600877996 /* WGSSignUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGSSignUpController.h; sourceTree = "<group>"; };
 		EA3F4FD318F7EA3600877996 /* WGSSignUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGSSignUpController.m; sourceTree = "<group>"; };
+		EAA6E7C918FB8AE300262777 /* foodData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodData.plist; sourceTree = "<group>"; };
+		EAA6E7CC18FB931A00262777 /* WGSFoodListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGSFoodListController.h; sourceTree = "<group>"; };
+		EAA6E7CD18FB931A00262777 /* WGSFoodListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGSFoodListController.m; sourceTree = "<group>"; };
+		EAA6E7CF18FB957600262777 /* Anggur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Anggur.jpeg; sourceTree = "<group>"; };
+		EAA6E7D018FB957600262777 /* IceCream.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IceCream.jpeg; sourceTree = "<group>"; };
+		EAA6E7D118FB957600262777 /* Kambing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kambing.jpeg; sourceTree = "<group>"; };
+		EAA6E7D218FB957600262777 /* Kentang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kentang.jpeg; sourceTree = "<group>"; };
+		EAA6E7D318FB957600262777 /* Laksa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laksa.jpeg; sourceTree = "<group>"; };
+		EAA6E7D418FB957600262777 /* Lotek.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lotek.jpeg; sourceTree = "<group>"; };
+		EAA6E7D518FB957600262777 /* Puding.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puding.jpeg; sourceTree = "<group>"; };
+		EAA6E7D618FB957600262777 /* Steak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Steak.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,14 +152,16 @@
 		EA3F4F9618F7C72F00877996 /* ModulTraining */ = {
 			isa = PBXGroup;
 			children = (
-				EA3F4FCF18F7E44D00877996 /* resources */,
 				EA3F4FC518F7CDB400877996 /* modul1 */,
+				EAA6E7CB18FB92F100262777 /* modul2 */,
+				EA3F4FCF18F7E44D00877996 /* resources */,
 				EA3F4F9F18F7C72F00877996 /* WGSAppDelegate.h */,
 				EA3F4FA018F7C72F00877996 /* WGSAppDelegate.m */,
 				EA3F4FA518F7C72F00877996 /* Images.xcassets */,
 				EA3F4FA218F7C72F00877996 /* ModulTraining.xcdatamodeld */,
 				EA3F4F9718F7C72F00877996 /* Supporting Files */,
 				EA3F4FC318F7C74000877996 /* Storyboard.storyboard */,
+				EAA6E7C918FB8AE300262777 /* foodData.plist */,
 			);
 			path = ModulTraining;
 			sourceTree = "<group>";
@@ -190,9 +213,26 @@
 		EA3F4FCF18F7E44D00877996 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				EAA6E7CF18FB957600262777 /* Anggur.jpeg */,
+				EAA6E7D018FB957600262777 /* IceCream.jpeg */,
+				EAA6E7D118FB957600262777 /* Kambing.jpeg */,
+				EAA6E7D218FB957600262777 /* Kentang.jpeg */,
+				EAA6E7D318FB957600262777 /* Laksa.jpeg */,
+				EAA6E7D418FB957600262777 /* Lotek.jpeg */,
+				EAA6E7D518FB957600262777 /* Puding.jpeg */,
+				EAA6E7D618FB957600262777 /* Steak.jpeg */,
 				EA3F4FD018F7E45400877996 /* images.jpeg */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		EAA6E7CB18FB92F100262777 /* modul2 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA6E7CC18FB931A00262777 /* WGSFoodListController.h */,
+				EAA6E7CD18FB931A00262777 /* WGSFoodListController.m */,
+			);
+			path = modul2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +311,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA6E7DB18FB957600262777 /* Laksa.jpeg in Resources */,
 				EA3F4F9B18F7C72F00877996 /* InfoPlist.strings in Resources */,
+				EAA6E7DD18FB957600262777 /* Puding.jpeg in Resources */,
+				EAA6E7DC18FB957600262777 /* Lotek.jpeg in Resources */,
+				EAA6E7D918FB957600262777 /* Kambing.jpeg in Resources */,
+				EAA6E7DE18FB957600262777 /* Steak.jpeg in Resources */,
+				EAA6E7D818FB957600262777 /* IceCream.jpeg in Resources */,
+				EAA6E7D718FB957600262777 /* Anggur.jpeg in Resources */,
+				EAA6E7DA18FB957600262777 /* Kentang.jpeg in Resources */,
 				EA3F4FD118F7E45400877996 /* images.jpeg in Resources */,
+				EAA6E7CA18FB8AE300262777 /* foodData.plist in Resources */,
 				EA3F4FA618F7C72F00877996 /* Images.xcassets in Resources */,
 				EA3F4FC418F7C74000877996 /* Storyboard.storyboard in Resources */,
 			);
@@ -296,6 +345,7 @@
 				EA3F4FCB18F7DF8000877996 /* WGSLoginViewController.m in Sources */,
 				EA3F4FCE18F7E1DC00877996 /* WGSMainView.m in Sources */,
 				EA3F4FA118F7C72F00877996 /* WGSAppDelegate.m in Sources */,
+				EAA6E7CE18FB931A00262777 /* WGSFoodListController.m in Sources */,
 				EA3F4FC818F7CDD000877996 /* WGSDataType.m in Sources */,
 				EA3F4F9D18F7C72F00877996 /* main.m in Sources */,
 				EA3F4FA418F7C72F00877996 /* ModulTraining.xcdatamodeld in Sources */,
@@ -502,6 +552,7 @@
 				EA3F4FBF18F7C73000877996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA3F4FC018F7C73000877996 /* Build configuration list for PBXNativeTarget "ModulTrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +561,7 @@
 				EA3F4FC218F7C73000877996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
